@@ -9,7 +9,6 @@ public class A39 {
             if(map.containsKey(k-arr[i])){
                 res[0] = map.get(k-arr[i]);
                 res[1] = i;
-                return res;
             } else{
                 map.put(arr[i],i);
             }

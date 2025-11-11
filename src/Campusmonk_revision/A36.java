@@ -4,15 +4,19 @@ import java.util.*;
 public class A36 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int m = sc.nextInt();
-        int n = sc.nextInt();
-        int[][] matrix = new int[m][n];
+       String ip = sc.nextLine();
+       String[] parts = ip.split("\\s+");
+       int m = Integer.parseInt(parts[0]);
+       int n = Integer.parseInt(parts[1]);
+       int[][] matrix = new int[m][n];
+       int z=2;
+       for(int i=0;i<m;i++){
+           for(int j=0;j<n;j++){
+               matrix[i][j] = Integer.parseInt(parts[z]);
+               z++;
+           }
+       }
 
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                matrix[i][j] = sc.nextInt();
-            }
-        }
 
         ArrayList<Integer> arr = new ArrayList<>();
 

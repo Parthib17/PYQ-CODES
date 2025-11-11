@@ -17,10 +17,10 @@ public class Q2 {
             arr[i] = Integer.parseInt(parts[i]);
         }
 
-        int c=1;
-        int maxSoFar = arr[0];
+        int c=0;
+        int maxSoFar = Integer.MIN_VALUE;
 
-        for(int i=1;i<arr.length;i++){
+        for(int i=0;i<arr.length;i++){
             if(arr[i] > maxSoFar){
                 c++;
                 maxSoFar=arr[i];

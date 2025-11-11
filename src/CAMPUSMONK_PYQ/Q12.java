@@ -17,7 +17,7 @@ public class Q12 {
         }
 
         int c=0;
-        for(int i=0;i<k;i++){
+        for(int i=0;i<=k;i++){
             if((start_index+i) % 7 == 6){
                 c++;
             }

@@ -12,7 +12,7 @@ public class A19{
         }
         if(arr[arr.length-1] > arr[0]){
             c++;
-            }
+        }
         if(c<=1){
             return "True";
         }
