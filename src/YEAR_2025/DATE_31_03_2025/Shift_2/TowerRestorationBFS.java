@@ -64,8 +64,7 @@ public class TowerRestorationBFS {
 
         List<Integer> temp = new ArrayList<>();
         for(int i=0;i<v;i++){
-            temp.add
-                    (maxRestoredTowers(adj, cost, i));
+            temp.add(maxRestoredTowers(adj, cost, i));
 
         }
         int maxRestored = Collections.max(temp);
