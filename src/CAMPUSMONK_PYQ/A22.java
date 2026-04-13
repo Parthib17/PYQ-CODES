@@ -30,7 +30,7 @@ public class A22 {
             if(entry.getValue() > max) {
                 sndMax = max;
                 item = entry.getKey();
-                max = entry.getKey();
+                max = entry.getValue();
             }
             if(entry.getValue()<max && entry.getValue()>sndMax){
                 sndMax = entry.getValue();
